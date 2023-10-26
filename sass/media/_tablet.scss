@@ -1,0 +1,91 @@
+/* Tablet */
+@media(max-width: 1199px) {
+
+    .header {
+        height: 591px;
+    }
+
+    .header-top {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .header-content {
+        width: 900px;
+        padding: 0 15px;
+    }
+
+    .header-nav-list {
+        display: none;
+    }
+
+    .header-nav-button {
+        display: block;
+    }
+
+    .header-title {
+        font-size: 52px;
+    }
+
+    .header-scroll {
+        font-size: 0;
+    }
+
+    /* Main */
+    .main {
+        padding: 80px 0;
+    }
+
+    .main-row {
+        margin-bottom: 80px;
+    }
+
+    .main-content {
+        width: 420px;
+    }
+
+    .main-header {
+        font-size: 50px;
+        line-height: 1;
+    }
+
+    .main-content-text {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .main-img {
+        width: 420px;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 50px 0;
+    }
+
+    .footer-corypthing {
+        width: 195px;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-logo .logo {
+        font-size: 30px;
+    }
+
+    .footer-corypthing p {
+        font-size: 14px;
+    }
+
+    .footer-widget-services {
+        display: none;
+    }
+
+    .footer-widget-title {
+        margin-bottom: 20px;
+    }
+
+}
