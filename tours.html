@@ -36,11 +36,14 @@
                     <li class="header-nav-list-item"><a class="header-nav-link" href="#">Галерея</a></li>
                     <li class="header-nav-list-item"><a class="header-nav-link" href="./contacts.html">Контакты</a></li>
                 </ul>
+                <button class="header-nav-button">
+                    <img src="./img/header/menu.svg" alt="Menu Button">
+                </button>
             </nav>
         </div>
     </header>
 
-    <main class="inner-page">
+    <main class="inner-page inner-page-tours">
         <div class="container">
             <div class="inner-page-tours-header">
                 <h1 class="main-header">Туры и направления</h1>
@@ -50,46 +53,80 @@
             <div class="cards-wrapper">
                 <div class="cards-row">
 
-                    <a href="#" class="standart-card">
-                        <picture><img src="./img/cards/card-01.jpg" alt="Бесплатные туры"></picture>
-                        <div class="card-title-wrapper">
-                            <h2 class="card-title">Бесплатные туры</h2>
-                        </div>
-                    </a>
 
-                    <a href="#" class="standart-card ">
-                        <picture><img src="./img/cards/card-02.jpg" alt="Бесплатные туры"></picture>
-                        <div class="card-title-wrapper extreme-color">
-                            <h2 class="card-title">Экстремальный отдых</h2>
-                        </div>
-                    </a>
+                    <div class="cards-row-item">
+                        <a href="#" class="standart-card">
+                            <picture>
+                                <source media="(max-width: 599px)" srcset="./img/cards/free/4.jpg">
+                                <source media="(max-width: 899px)" srcset="./img/cards/free/3.jpg">
+                                <source media="(max-width: 1199px)" srcset="./img/cards/free/2.jpg">
+                                <img src="./img/cards/free/1.jpg" alt="Бесплатные туры">
+                            </picture>
+                            <div class="card-title-wrapper">
+                                <h2 class="card-title">Бесплатные туры</h2>
+                            </div>
+                        </a>
+                    </div>
 
+                    <div class="cards-row-item">
+                        <a href="#" class="standart-card ">
+                            <picture>
+                                <source media="(max-width: 599px)" srcset="./img/cards/extreme/4.jpg">
+                                <source media="(max-width: 899px)" srcset="./img/cards/extreme/3.jpg">
+                                <source media="(max-width: 1199px)" srcset="./img/cards/extreme/2.jpg">
+                                <img src="./img/cards/extreme/1.jpg" alt="Бесплатные туры">
+                            </picture>
+                            <div class="card-title-wrapper extreme-color">
+                                <h2 class="card-title">Экстремальный отдых</h2>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="cards-row">
                     <div class="cards-column">
+                        <div class="wide-card-item">
+                            <a href="#" class="wide-card">
+                                <picture>
+                                    <source media="(max-width: 599px)" srcset="./img/cards/incredible/4.jpg">
+                                    <source media="(max-width: 899px)" srcset="./img/cards/incredible/3.jpg">
+                                    <source media="(max-width: 1199px)" srcset="./img/cards/incredible/2.jpg">
+                                    <img src="./img/cards/incredible/1.jpg" alt="Невероятные приключения">
+                                </picture>
+                                <div class="card-title-wrapper adventures-color">
+                                    <h2 class="card-title">Невероятные приключения</h2>
+                                </div>
+                            </a>
+                        </div>
 
-                        <a href="#" class="wide-card">
-                            <picture><img src="./img/cards/card-03.jpg" alt="Невероятные приключения"></picture>
-                            <div class="card-title-wrapper adventures-color">
-                                <h2 class="card-title">Невероятные приключения</h2>
-                            </div>
-                        </a>
+                        <div class="wide-card-item">
+                            <a href="./tracking.html" class="wide-card ">
+                                <picture>
+                                    <source media="(max-width: 599px)" srcset="./img/cards/tracking/4.jpg">
+                                    <source media="(max-width: 899px)" srcset="./img/cards/tracking/3.jpg">
+                                    <source media="(max-width: 1199px)" srcset="./img/cards/tracking/2.jpg">
+                                    <img src="./img/cards/tracking/1.jpg" alt="Трекинг походы">
+                                </picture>
+                                <div class="card-title-wrapper tracking-color">
+                                    <h2 class="card-title">Трекинг походы</h2>
+                                </div>
+                            </a>
+                        </div>
 
-                        <a href="./tracking.html" class="wide-card ">
-                            <picture><img src="./img/cards/card-04.jpg" alt="Трекинг походы"></picture>
-                            <div class="card-title-wrapper tracking-color">
-                                <h2 class="card-title">Трекинг походы</h2>
-                            </div>
-                        </a>
-   
                     </div>
                     
-                    <a href="#" class="high-card">
-                        <picture><img src="./img/cards/card-05.jpg" alt="Экзотические джунгли"></picture>
-                        <div class="card-title-wrapper jungle-color">
-                            <h2 class="card-title">Экзотические джунгли</h2>
-                        </div>
-                    </a>
+                    <div class="high-card-item">
+                        <a href="#" class="high-card">
+                            <picture>
+                                <source media="(max-width: 599px)" srcset="./img/cards/exotic/4.jpg">
+                                <source media="(max-width: 899px)" srcset="./img/cards/exotic/3.jpg">
+                                <source media="(max-width: 1199px)" srcset="./img/cards/exotic/2.jpg">
+                                <img src="./img/cards/exotic/1.jpg" alt="Экзотические джунгли">
+                            </picture>
+                            <div class="card-title-wrapper jungle-color">
+                                <h2 class="card-title">Экзотические джунгли</h2>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
             <!-- //cards-wrapper -->
